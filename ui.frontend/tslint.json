@@ -83,5 +83,6 @@
   },
   "rulesDirectory": [
     "codelyzer"
-  ]
+  ],
+  "no-trailing-whitespace": false
 }

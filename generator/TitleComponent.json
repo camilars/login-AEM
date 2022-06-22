@@ -33,7 +33,14 @@
         "label": "Meu Texto",
         "type": "textfield",
         "json-expose": true,
-        "json-property": "text"
+        "json-property": "titleComponent"
+      },
+      {
+        "field": "size",
+        "label": "Tamanho da font",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "size"
       }
     ]
   }

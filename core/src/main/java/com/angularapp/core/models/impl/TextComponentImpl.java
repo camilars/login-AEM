@@ -43,6 +43,8 @@ public class TextComponentImpl
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String text;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String size;
     @SlingObject
     private Resource resource;
 
@@ -50,6 +52,12 @@ public class TextComponentImpl
     @JsonProperty("text")
     public String getText() {
         return text;
+    }
+
+    @Override
+    @JsonProperty("size")
+    public String getSize() {
+        return size;
     }
 
     @Override

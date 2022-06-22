@@ -42,14 +42,30 @@ public class InputComponentImpl
 {
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private String input;
+    private String name;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String type;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String value;
     @SlingObject
     private Resource resource;
 
     @Override
-    @JsonProperty("text")
-    public String getInput() {
-        return input;
+    @JsonProperty("name")
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    @JsonProperty("type")
+    public String getType() {
+        return type;
+    }
+
+    @Override
+    @JsonProperty("value")
+    public String getValue() {
+        return value;
     }
 
     @Override

@@ -33,7 +33,13 @@ public interface InputComponent
 {
 
 
-    @JsonProperty("text")
-    String getInput();
+    @JsonProperty("name")
+    String getName();
+
+    @JsonProperty("type")
+    String getType();
+
+    @JsonProperty("value")
+    String getValue();
 
 }

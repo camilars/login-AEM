@@ -33,10 +33,20 @@
          <column jcr:primaryType="nt:unstructured"
                  sling:resourceType="granite/ui/components/coral/foundation/container">
             <items jcr:primaryType="nt:unstructured">
-               <input cq-msm-lockable="./input"
-                      fieldLabel="Meu Texto"
+               <name cq-msm-lockable="./name"
+                     fieldLabel="Nome da Entrada"
+                     jcr:primaryType="nt:unstructured"
+                     name="./name"
+                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <type cq-msm-lockable="./type"
+                     fieldLabel="Tipo de Entrada"
+                     jcr:primaryType="nt:unstructured"
+                     name="./type"
+                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <value cq-msm-lockable="./value"
+                      fieldLabel="Valor do Input"
                       jcr:primaryType="nt:unstructured"
-                      name="./input"
+                      name="./value"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
             </items>
          </column>

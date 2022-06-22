@@ -33,10 +33,15 @@
          <column jcr:primaryType="nt:unstructured"
                  sling:resourceType="granite/ui/components/coral/foundation/container">
             <items jcr:primaryType="nt:unstructured">
-               <text cq-msm-lockable="./text"
-                     fieldLabel="Meu Texto"
+               <titleComponent cq-msm-lockable="./titleComponent"
+                               fieldLabel="Meu Texto"
+                               jcr:primaryType="nt:unstructured"
+                               name="./titleComponent"
+                               sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <size cq-msm-lockable="./size"
+                     fieldLabel="Tamanho da font"
                      jcr:primaryType="nt:unstructured"
-                     name="./text"
+                     name="./size"
                      sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
             </items>
          </column>

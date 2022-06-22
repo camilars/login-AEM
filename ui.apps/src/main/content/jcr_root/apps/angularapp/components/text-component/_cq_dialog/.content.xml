@@ -38,6 +38,11 @@
                      jcr:primaryType="nt:unstructured"
                      name="./text"
                      sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
+               <size cq-msm-lockable="./size"
+                     fieldLabel="Tamanho da font"
+                     jcr:primaryType="nt:unstructured"
+                     name="./size"
+                     sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
             </items>
          </column>
       </items>

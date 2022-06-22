@@ -42,14 +42,22 @@ public class TitleComponentImpl
 {
 
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private String text;
+    private String titleComponent;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String size;
     @SlingObject
     private Resource resource;
 
     @Override
-    @JsonProperty("text")
-    public String getText() {
-        return text;
+    @JsonProperty("titleComponent")
+    public String getTitleComponent() {
+        return titleComponent;
+    }
+
+    @Override
+    @JsonProperty("size")
+    public String getSize() {
+        return size;
     }
 
     @Override

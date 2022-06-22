@@ -13,9 +13,7 @@
  |  See the License for the specific language governing permissions and
  |  limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <!-- ====================================================================== -->
@@ -90,11 +88,15 @@
                         </embedded>
                         <embedded>
                             <groupId>com.adobe.acs</groupId>
-                            <artifactId>acs-aem-commons-content</artifactId>
+                            <artifactId>acs-aem-commons-ui.apps</artifactId>
                             <type>zip</type>
-                            <target>/apps/edgeuol-vendor-packages/container/install</target>
-                            <filter>true</filter>
-                            <isAllVersionsFilter>true</isAllVersionsFilter>
+                            <target>/apps/angularapp-vendor-packages/application/install</target>
+                        </embedded>
+                        <embedded>
+                            <groupId>com.adobe.acs</groupId>
+                            <artifactId>acs-aem-commons-ui.content</artifactId>
+                            <type>zip</type>
+                            <target>/apps/angularapp-vendor-packages/content/install</target>
                         </embedded>
                     </embeddeds>
                 </configuration>
@@ -127,7 +129,7 @@
                     <execution>
                         <id>aem-analyser</id>
                         <goals>
-                            <goal>project-analyse</goal>                           
+                            <goal>project-analyse</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -194,7 +196,7 @@
                 <!-- Use `build:production` instead of `build` NPM script -->
                 <build.environment>:production</build.environment>
             </properties>
-    </profile>
+        </profile>
     </profiles>
 
     <!-- ====================================================================== -->

@@ -33,7 +33,10 @@ public interface TitleComponent
 {
 
 
-    @JsonProperty("text")
-    String getText();
+    @JsonProperty("titleComponent")
+    String getTitleComponent();
+
+    @JsonProperty("size")
+    String getSize();
 
 }

@@ -23,6 +23,7 @@ import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.adobe.cq.wcm.core.components.models.Image;
 import com.angularapp.core.models.ImageComponent;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Exporter;
@@ -47,6 +48,7 @@ public class ImageComponentImpl
     private Resource resource;
 
     @Override
+    @JsonProperty("imagePath")
     public Image getImagePath() {
         return imagePath;
     }

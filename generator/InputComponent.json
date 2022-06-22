@@ -29,11 +29,25 @@
     "generic-javadoc": false,
     "properties": [
       {
-        "field": "input",
-        "label": "Meu Texto",
+        "field": "name",
+        "label": "Nome da Entrada",
         "type": "textfield",
         "json-expose": true,
-        "json-property": "text"
+        "json-property": "name"
+      },
+      {
+        "field": "type",
+        "label": "Tipo de Entrada",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "type"
+      },
+      {
+        "field": "value",
+        "label": "Valor do Input",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "value"
       }
     ]
   }

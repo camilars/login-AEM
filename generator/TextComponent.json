@@ -34,6 +34,13 @@
         "type": "textfield",
         "json-expose": true,
         "json-property": "text"
+      },
+      {
+        "field": "size",
+        "label": "Tamanho da font",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "size"
       }
     ]
   }

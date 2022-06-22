@@ -36,4 +36,7 @@ public interface TextComponent
     @JsonProperty("text")
     String getText();
 
+    @JsonProperty("size")
+    String getSize();
+
 }
