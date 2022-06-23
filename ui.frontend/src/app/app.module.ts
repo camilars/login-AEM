@@ -22,12 +22,11 @@ import { AemAngularCoreWcmComponentsListV2 } from "@adobe/aem-core-components-an
 import { AemAngularCoreWcmComponentsSeparatorV1 } from "@adobe/aem-core-components-angular-base/authoring/separator/v1";
 import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-components-angular-spa/containers/accordion/v1";
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
-import { BasicComponentComponent } from "./components/basic-component/basic-component.component";
-import { NotFoundComponent } from "./components/not-found/not-found.component";
-import { TitleComponentComponent } from "./components/title-component/title-component.component";
-import { ImageComponentComponent } from "./components/image-component/image-component.component";
-import { TextComponentComponent } from "./components/text-component/text-component.component";
-import { InputComponentComponent } from "./components/input-component/input-component.component";
+import { ButtonComponentComponent } from "./components/micro/button-component/button-component.component";
+import { FormComponent } from "./components/containers/form/form.component";
+import { HeaderComponent } from "./components/containers/header/header.component";
+import { FooterComponent } from "./components/containers/footer/footer.component";
+import { MainContentComponent } from "./components/containers/main-content/main-content.component";
 @NgModule({
   imports: [
     BrowserModule,
@@ -49,21 +48,13 @@ import { InputComponentComponent } from "./components/input-component/input-comp
   declarations: [
     AppComponent,
     PageComponent,
-    BasicComponentComponent,
-    NotFoundComponent,
-    TitleComponentComponent,
-    ImageComponentComponent,
-    TextComponentComponent,
-    InputComponentComponent,
+    ButtonComponentComponent,
+    FormComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainContentComponent,
   ],
-  entryComponents: [
-    PageComponent,
-    BasicComponentComponent,
-    TitleComponentComponent,
-    ImageComponentComponent,
-    TextComponentComponent,
-    InputComponentComponent,
-  ],
+  entryComponents: [PageComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
