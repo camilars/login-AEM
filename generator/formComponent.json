@@ -1,0 +1,61 @@
+{
+  "project-settings": {
+    "code-owner": "Angular App",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "angularapp",
+    "model-interface-pkg": "com.angularapp.core.models",
+    "model-impl-pkg": "com.angularapp.core.models.impl"
+  },
+  "name": "form-component",
+  "title": "Form Component",
+  "group": "Angular App - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "text",
+        "label": "Texto Título",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "text"
+      },
+      {
+        "field": "title",
+        "label": "Título",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "title"
+      },
+      {
+        "field": "titleForm",
+        "label": "Título do Formulário",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "titleForm"
+      },
+      {
+        "field": "textButton",
+        "label": "Testo do Botão",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "textButton"
+      }
+    ]
+  }
+}

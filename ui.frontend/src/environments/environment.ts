@@ -14,9 +14,9 @@
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 export const environment = {
-  appRoot:
-    "/content/angularapp/us/en/home.html", // tslint:disable-line
+  appRoot: "/content/angularapp/us/en/home.html", // tslint:disable-line
   production: false,
   publicUrl:
-    '/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources',
+    "/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources",
+  weatherBaseUrl: "http://api.weatherapi.com/v1",
 };

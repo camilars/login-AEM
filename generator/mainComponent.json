@@ -1,0 +1,89 @@
+{
+  "project-settings": {
+    "code-owner": "Angular App",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "angularapp",
+    "model-interface-pkg": "com.angularapp.core.models",
+    "model-impl-pkg": "com.angularapp.core.models.impl"
+  },
+  "name": "main-component",
+  "title": "Main Component",
+  "group": "Angular App - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "title1",
+        "label": "Título 1",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "title1"
+      },
+      {
+        "field": "text1",
+        "label": "Texto 1",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "text1"
+      },
+      {
+        "field": "title2",
+        "label": "Título 2",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "title2"
+      },
+      {
+        "field": "text2",
+        "label": "Texto 2",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "text2"
+      },
+      {
+        "field": "title3",
+        "label": "Título 3",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "title3"
+      },
+      {
+        "field": "text3",
+        "label": "Texto 3",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "text3"
+      },
+      {
+        "field": "title4",
+        "label": "Título 4",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "title4"
+      },
+      {
+        "field": "text4",
+        "label": "Texto 4",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "text4"
+      }
+    ]
+  }
+}

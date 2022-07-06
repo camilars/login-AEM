@@ -1,0 +1,32 @@
+.backgrond-img {
+  width: 824px;
+  height: 824px;
+  left: -146px;
+}
+
+.main-container {
+  margin-top: 300px;
+  display: flex;
+}
+
+.main-content {
+  margin-left: 134px;
+}
+
+.title {
+  font-weight: 700;
+  line-height: 96px;
+  text-align: right;
+}
+
+.text {
+  font-weight: 400;
+  line-height: 36px;
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .main-content {
+    display: none;
+  }
+}

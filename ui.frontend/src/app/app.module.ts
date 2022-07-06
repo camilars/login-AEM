@@ -7,6 +7,7 @@ import { AppComponent } from "./app.component";
 import "./components/import-components";
 import { ModelManagerService } from "./components/model-manager.service";
 import { PageComponent } from "./components/page/page.component";
+import { FormsModule } from "@angular/forms";
 
 import { AemAngularCoreWcmComponentsTabsV1 } from "@adobe/aem-core-components-angular-spa/containers/tabs/v1";
 
@@ -22,11 +23,11 @@ import { AemAngularCoreWcmComponentsListV2 } from "@adobe/aem-core-components-an
 import { AemAngularCoreWcmComponentsSeparatorV1 } from "@adobe/aem-core-components-angular-base/authoring/separator/v1";
 import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-components-angular-spa/containers/accordion/v1";
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
-import { ButtonComponentComponent } from "./components/micro/button-component/button-component.component";
 import { FormComponent } from "./components/containers/form/form.component";
 import { HeaderComponent } from "./components/containers/header/header.component";
 import { FooterComponent } from "./components/containers/footer/footer.component";
 import { MainContentComponent } from "./components/containers/main-content/main-content.component";
+import { TextComponentComponent } from "./components/micro/text-component/text-component.component";
 @NgModule({
   imports: [
     BrowserModule,
@@ -43,18 +44,26 @@ import { MainContentComponent } from "./components/containers/main-content/main-
     AemAngularCoreWcmComponentsAccordionV1,
     AemAngularCoreWcmComponentsSeparatorV1,
     AemAngularCoreWcmComponentsLanguageNavigationV1,
+    FormsModule,
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
   declarations: [
     AppComponent,
     PageComponent,
-    ButtonComponentComponent,
     FormComponent,
     HeaderComponent,
     FooterComponent,
     MainContentComponent,
+    TextComponentComponent,
   ],
-  entryComponents: [PageComponent],
+  entryComponents: [
+    PageComponent,
+    FormComponent,
+    HeaderComponent,
+    FooterComponent,
+    MainContentComponent,
+    TextComponentComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,1 +1,28 @@
-<p>form works!</p>
+<div class="container">
+  <div class="form-container">
+    <!-- <img src="{{imageLogo.url}}" alt="" class="logo-mobile"> -->
+    <h1 class="title">{{title}}</h1>
+    <p class="text">{{text}}</p>
+
+    <div class="form-content">
+      <h3 class="form-title">{{titleForm}}</h3>
+
+      <form action="" #loginForm="ngForm" (ngSubmit)="login()" class="form">
+        <div class="form-group">
+          <div class="form-input-container" [ngClass]="{'error':error}">
+            <input type="text" class="form-input" id="user" name="user" placeholder="Usuário"
+              [(ngModel)]="model.user" />
+            <img src="./assets/img/user.svg" alt="" class="icon-user">
+          </div>
+          <div class="form-input-container" [ngClass]="{'error':error}">
+            <input type="password" class="form-input" id="password" name="password" placeholder="Senha"
+              [(ngModel)]="model.password" />
+            <img src="./assets/img/cadeado.svg" alt="" class="icon-user">
+          </div>
+          <span class="error-msg" *ngIf="error">{{errorMsg}}</span>
+        </div>
+        <button [disabled]="!loginForm.valid" type="submit" class="form-submit">{{textButton}}</button>
+      </form>
+    </div>
+  </div>
+</div>

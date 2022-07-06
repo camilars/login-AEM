@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-07-01T15:22:47.326-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/angularapp/settings/wcm/templates/spa-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Home logada"
+        sling:resourceType="angularapp/components/page"
+        pageTitle="Home logada">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-10-22T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-10-22T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header_component
+                    jcr:created="{Date}2022-06-30T10:54:15.623-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-06-30T11:01:06.158-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="angularapp/components/header-component">
+                    <imagePath
+                        jcr:lastModified="{Date}2022-06-30T11:01:06.158-03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="core/wcm/components/image/v2/image"
+                        fileReference="/content/dam/angularapp/background.png"/>
+                </header_component>
+                <main_component
+                    jcr:created="{Date}2022-07-01T10:05:41.486-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-01T15:22:47.320-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="angularapp/components/main-component"
+                    text1="Nossa missão é"
+                    text2="transformar o mundo"
+                    text3="construindo experiências digitais"
+                    text4="que permitam o crescimento dos nossos clientes"
+                    title1="Our mission is"
+                    title2="to transform the world"
+                    title3="building digital experiences"
+                    title4="that enable our client’s growth"/>
+                <footer_component
+                    jcr:created="{Date}2022-07-01T14:56:18.460-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-07-01T14:56:18.460-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="angularapp/components/footer-component"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

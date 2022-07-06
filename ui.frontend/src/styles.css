@@ -20,46 +20,26 @@ h3,
 h4,
 h5,
 p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Poppins, Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.color-red {
-  color: red;
+input {
+  all: unset;
 }
 
-.font-family-space-mono {
-  font-family: 'Space Mono';
+.background-img {
+  background-image: url("./assets/img/background.png");
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.font-family-inconsolata {
-  font-family: Inconsolata;
+.background-color {
+  background: #26292c;
+  height: 100vh;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.font-14 {
-  font-style: 14px;
-}
-
-.title-font-24 {
-  font-family: Inconsolata;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  letter-spacing: -0.08em;
-}
-
-.font-64 {
-  font-style: 64px;
-}
-
-.letter-spacing-08em {
-  letter-spacing: -0.08em;
-}
-
-.letter-spacing-035em {
-  letter-spacing: -0.035em;
+* {
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
 }
