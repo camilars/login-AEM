@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-07-01T15:22:47.326-03:00"
+        cq:lastModified="{Date}2022-07-06T18:10:54.001-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/angularapp/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -36,7 +36,7 @@
                 <main_component
                     jcr:created="{Date}2022-07-01T10:05:41.486-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-07-01T15:22:47.320-03:00"
+                    jcr:lastModified="{Date}2022-07-06T18:02:05.944-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="angularapp/components/main-component"
@@ -49,9 +49,9 @@
                     title3="building digital experiences"
                     title4="that enable our client’s growth"/>
                 <footer_component
-                    jcr:created="{Date}2022-07-01T14:56:18.460-03:00"
+                    jcr:created="{Date}2022-07-06T18:10:53.997-03:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2022-07-01T14:56:18.460-03:00"
+                    jcr:lastModified="{Date}2022-07-06T18:10:53.997-03:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="angularapp/components/footer-component"/>

@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -10,7 +13,7 @@
 
 .form-container {
   color: #e0e0e0;
-  margin: 54px;
+  height: 100%;
 }
 
 .title {
@@ -54,6 +57,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .form-input {

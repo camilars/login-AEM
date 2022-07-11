@@ -1,11 +1,15 @@
 <header class="header">
-  <img src="{{imagePath.url}}" alt="" class="logo">
+  <img src="./assets/img/compassuol-logo-black.png" alt="" class="logo">
   <div class="date-hour">
-    <p class="hour">11:26</p>
-    <p class="date">terça-feira, 17 de março de 2020</p>
+    <p class="hour">{{ time | date: timeFormat }}</p>
+    <p class="date">{{ actual }}</p>
   </div>
   <div class="location-degree">
-    <p class="location">Passo Fundo - RS</p>
-    <p class="degree"><img src="" alt=""> 22º</p>
+    <p class="location">{{ location }}</p>
+    <div class="session-degree">
+      <img src="{{icon}}" alt="" class="icon">
+      <p class="degree"> {{ temperature }}º</p>
+    </div>
+
   </div>
 </header>

@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
+  height: 100vh;
 }
 
 body {
@@ -31,15 +32,23 @@ input {
   background-image: url("./assets/img/background.png");
   background-repeat: no-repeat;
   height: 100vh;
+  max-height: 1536px;
+  background-size: cover;
 }
 
 .background-color {
   background: #26292c;
   height: 100vh;
+  max-height: 1536px;
 }
 
 * {
-  overflow-y: hidden;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .background-color {
+    height: 100%;
+  }
 }

@@ -1,11 +1,10 @@
 .header {
-  height: 163px;
+  height: 196px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   color: #222222;
-  position: absolute;
-  top: 0;
+  margin-top: 26px;
 }
 
 .logo {
@@ -16,9 +15,7 @@
 .hour {
   font-weight: 700;
   font-size: 144px;
-  line-height: 216px;
   text-align: center;
-  margin: 0;
 }
 
 .date {
@@ -44,6 +41,20 @@
   line-height: 72px;
   text-align: center;
   margin: 0;
+}
+
+.location-degree {
+  margin-right: 40px;
+}
+
+.session-degree {
+  display: flex;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2022-07-06T17:49:32.961-03:00"
+        cq:lastModified="{Date}2022-07-11T15:16:22.443-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/angularapp/settings/wcm/templates/spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -83,12 +83,12 @@
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <phone
                                 jcr:primaryType="nt:unstructured"
-                                offset="0"
-                                width="12"/>
-                            <default
-                                jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="10"/>
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="3035"/>
                         </cq:responsive>
                     </form_component>
                 </container>

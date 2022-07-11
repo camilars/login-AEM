@@ -1,22 +1,23 @@
-.backgrond-img {
-  width: 824px;
-  height: 824px;
-  left: -146px;
-}
-
 .main-container {
-  margin-top: 300px;
-  display: flex;
+  margin-top: 72px;
+  width: 100%;
+  height: 467px;
+  background: url("./../../../../assets/img/uol-ball-transparent.png");
+  background-repeat: no-repeat;
+  background-size: 646px 646pxcd;
+  background-position-x: -140px;
 }
 
 .main-content {
-  margin-left: 134px;
+  width: 100%;
+  padding-right: 112px;
+  box-sizing: border-box;
 }
 
 .title {
   font-weight: 700;
-  line-height: 96px;
   text-align: right;
+  white-space: nowrap;
 }
 
 .text {
@@ -26,6 +27,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .main-container {
+    background-size: 660px 660px;
+    background-position-x: -294px;
+    margin-top: 0;
+  }
   .main-content {
     display: none;
   }
